@@ -1,2 +1,2 @@
 # SoftSwiss-testTask-app
-https://abekar145.github.io/SoftSwiss-testTask-app/index.html
+https://abekar145.github.io/SoftSwiss-testTask-app/SoftSwiss-testTask-app/index.html
