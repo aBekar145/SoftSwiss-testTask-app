@@ -81,11 +81,10 @@ html, body {
   &__main-title {
     text-align: center;
     margin: 0;
-    margin-bottom: 0.625rem;
+    margin-bottom: 1.25rem;
     @include h1();
   }
   &__description {
-    margin-bottom: 25.1875rem;
     max-width: 35.3125rem;
     text-align: center;
     @include paragraph-main();
@@ -96,6 +95,9 @@ html, body {
     border: none;
     cursor: pointer;
     outline: none;
+    position: absolute;
+    bottom: 2.8125rem;
+    right: 50%;
     &:hover svg .cls-1{
       fill: $bg-grey-dark;
       transition-duration: 0.5s;
@@ -456,7 +458,7 @@ html, body {
     &__list {
       flex-direction: column;
       &-item {
-        margin-bottom: 0.3125rem;
+        margin-bottom: 1rem;
       }
     }
   }

@@ -453,15 +453,14 @@ html, body {
 .our-clothing__main-title {
   text-align: center;
   margin: 0;
-  margin-bottom: 0.625rem;
+  margin-bottom: 1.25rem;
   font-family: Roboto;
   font-size: 3.75rem;
-  line-height: 150%;
+  line-height: 100%;
   letter-spacing: 0.21rem;
 }
 
 .our-clothing__description {
-  margin-bottom: 25.1875rem;
   max-width: 35.3125rem;
   text-align: center;
   font-family: Roboto;
@@ -476,6 +475,9 @@ html, body {
   border: none;
   cursor: pointer;
   outline: none;
+  position: absolute;
+  bottom: 2.8125rem;
+  right: 50%;
 }
 
 .our-clothing__button-arrow-down:hover svg .cls-1 {
@@ -954,7 +956,7 @@ html, body {
             flex-direction: column;
   }
   .navigation__list-item {
-    margin-bottom: 0.3125rem;
+    margin-bottom: 1rem;
   }
   .our-clothing__main-title {
     font-size: 2rem;
