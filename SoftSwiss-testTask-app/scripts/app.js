@@ -60,9 +60,14 @@ app.controller('productsCtrl', function ($scope) {
 		{name: "Child"},
 	]
 
-	$scope.changeFilter  = function (data) {
+	$scope.changeFilter  = function(data) {
 		return $scope.showCategory[data.type];
 	}
+
+	$scope.allChecked = function(data) {
+		return $scope.data.items[1];
+	}
+
 });
 
 

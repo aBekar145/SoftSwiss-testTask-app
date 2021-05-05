@@ -82,14 +82,14 @@
               <span class="choose__subtitle">{{item.name}}</span>
             </label>
           </div>
-          <button class="filter-block__button" ng-click="showAllGoods()">See all prodrobotucts</button>
+          <button class="filter-block__button" ng-model="showAllCategory" ng-click="allChecked()">See all prodrobotucts</button>
         </div>
       </div>
     </div>
     <div class="cards">
       <div class="cards__wrap wrap">
         <ul class="cards__list" >
-          <li class="cards__list-item" ng-repeat="item in data.items  | filter:changeFilter | orderBy: showAllGoods">
+          <li class="cards__list-item" ng-model="showAllCategory" ng-repeat="item in data.items  | filter:changeFilter">
             <div class="card">
                 <a class="card__link" href="#">
                   <img class="card__link-img" ng-src="{{item.img}}" alt="{{item.name}}">
